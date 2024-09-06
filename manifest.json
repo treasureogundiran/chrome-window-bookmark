@@ -6,5 +6,12 @@
     "action": {
       "default_popup": "popup.html",
       "default_icon": "img/bookmark-website.png"
-    }
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
   }
